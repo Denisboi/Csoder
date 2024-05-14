@@ -60,7 +60,7 @@ def extract_images():
 
 if __name__ == '__main__':
     # Verifying and creating necessary directories
-    [os.system(f'mkdir {i}{nul}') for i in ['In-Compressed', 'Out-Sprites']]
+    [os.system(f'mkdir {i}{nul}') for i in [input_folder, output_folder]]
     Console.info('Directories successfully initiated!')
 
     # main task
