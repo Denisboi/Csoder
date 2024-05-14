@@ -1,29 +1,22 @@
-# Dumpsc
-
-**Dumpsc** is a python project which helps you to decode and extract images from supercell files.
+# Csoder
 
 ## Usage
 
-Create **In-Compressed** directory and include the `*.sc` files in the directory.
 
-Then simply run:
-> python Main.py
 
+Simply run:
+```
+python main.py
+```
 ## Credits
 
 I can say I have done almost nothing in this project other than making it easy to use and good to look at.
 
-- [Galaxy1036/Dumpsc](https://github.com/Galaxy1036/Dumpsc): The original Dumpsc
-- [MasterDevX/XCoder](https://github.com/MasterDevX/XCoder): The original Xcoder. _It's code is used to cut sprites_
+- [Statscell/Dumpsc](https://github.com/Statscell/Dumpsc): 
 
 ## Supporting Games
 
-These are the games I have tested with:
-
-- Clash of Clans
-- Clash Royale
-- Brawl Stars
-- Clash Quest
+For now it will be Brawl Stars
 
 ## ⚠️ Information ⚠️
 
