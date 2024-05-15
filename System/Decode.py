@@ -3,8 +3,7 @@ from System.Reader import Reader
 from PIL import Image, ImageDraw
 from System.Objects.Region import Region
 from System.Objects.Point import Point
-from System.Objects.Other import SheetData
-from System.Objects.Other import SpriteGlobals
+from System.Objects.Other import SheetData, SpriteData
 from System.Logger import Console
 
 # --------------------------
