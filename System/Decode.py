@@ -1,10 +1,10 @@
 from struct import Struct
 from System.Reader import Reader
 from PIL import Image, ImageDraw
-from System.objects.Region import Region
-from System.objects.Point import Point
-from System.objects.Other import SheetData
-from System.objects.Other import SpriteGlobals
+from System.Objects.Region import Region
+from System.Objects.Point import Point
+from System.Objects.Other import SheetData
+from System.Objects.Other import SpriteGlobals
 from System.Logger import Console
 
 # --------------------------
