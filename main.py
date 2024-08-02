@@ -12,16 +12,28 @@ def get_files():
         return
 
     files = []
-    for test_file in all_files:
-        if test_file.endswith(".sc"):
-            files.append(test_file)
-
+    for file in all_files:
+        match file.endswith():
+            case ".ktx":
+                Console.info("Find file, which ends with .ktx")
+                ktx_file()
+            case ".zktx":
+                Console.info("Find file, which ends with .zktx")
+            case 
     if (len(files) < 1):
         Console.warn('No valid files found !!!')
         return
     
     return files
-
+def ktx_file():
+    try:
+        get_do = input("What to do with the ktx file?")
+        Console.info("1. Convert ktx to zktx")
+        Console.info("2. Convert ktx to png")
+    except:
+        Console.warn("Int count!")
+        exit()
+    
 def extract_images():
     # Getting files
     files = get_files()
